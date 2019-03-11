@@ -10,9 +10,13 @@ The robot will be able to interact with different objects around the world. It w
 explore while displaying information about the objects it tries to interact with, and the ability to interact with
 the object with user preference (i.e. move the object, destroy it etc).
 
+Success will be had if the robot can wander around and move objects around the space. 
+
 Milestones:
-1.  Write tests
-2.  Set up data streaming and visualization tools
-3.  Code the finite state machine and test with data streaming
-4.  Port data to 2D environment 
-5.  Final tests and documentation
+1.  Write tests (March 20)
+2.  Set up data streaming and visualization tools (March 21)
+3.  Code the finite state machine and test with data streaming (March 22)
+4.  Port data to 2D environment (March 23)
+5.  Final tests and documentation (March 23)
+6.  Add intruder to wander (??)
+7.  Add function for robot to stay away from intruder (??)
