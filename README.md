@@ -1,51 +1,22 @@
-Example Elma Project
-===
+# Robot_FSM
+ECE590_FinalProject
 
-[Elma](http://klavinslab.org/elma) is an event loop manager designed to teach embedded and reactive systems programming. This repository contains an example Elma project, showing how to use many Elma features, as well as illustrating how to arrange the files and directories in an Elma project.
+This final project will be an extension of the Elma Robot in a simulated environment. This will be an extension of the robot finite state machine simulated in a 2D environment. The robot will be able to navigate the 2D space for as long as the battery is charged.
+There will be an intruder in the 2D space and the robot will avoid the intruder. if the robot runs out of battery 
+the robot will go back to the charging station and recharge for a set amount of time. This will reset the state 
+machine and will be allowed to continue once the user presses a button. 
 
-The source code for this project is available [on github](https://github.com/klavinslab/elma_project).
+The robot will be able to interact with different objects around the world. It will be able to wander on its own and
+explore while displaying information about the objects it tries to interact with, and the ability to interact with
+the object with user preference (i.e. move the object, destroy it etc).
 
-Installation
----
+Success will be had if the robot can wander around and move objects around the space. 
 
-    git clone https://github.com/klavinslab/elma_project.git
-    cd elma_project
-    docker run -v $PWD:/source -it klavins/elma:latest bash
-    make
-    make docs
-
-
-Execution
----
-To run the stopwatch, type
-
-    bin/stopwatch
-
-The stopwatch is controlled via the keyboard, via these keys:
-- **s**: Start or stop
-- **l**: Lap
-- **r**: Reset
-- **q**: Quit
-
-Testing
----
-To run tests, do
-```bash
-bin/test
-```
-
-Architecture
----
-Describe how your project was designed, what choices you made, how things are organized, etc.
-
-Results
----
-Describe the results of testing and running your code. Include visuals when possible.
-
-Acknowledgements
----
-Mention anyone who helped you and how.
-
-References
----
-List all libraries, articles, stack overflow answers, etc. that you used to get your code working.
+Milestones:
+1.  Write tests (March 20)
+2.  Set up data streaming and visualization tools (March 21)
+3.  Code the finite state machine and test with data streaming (March 22)
+4.  Port data to 2D environment (March 23)
+5.  Final tests and documentation (March 23)
+6.  Add intruder to wander (??)
+7.  Add function for robot to stay away from intruder (??)
