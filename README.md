@@ -20,3 +20,6 @@ Milestones:
 5.  Final tests and documentation (March 23)
 6.  Add random wander and autonomous trash collection (??)
 7.  Add time the random walk of the robot (??)
+
+To build in docker environment -> make
+To run the game -> bin/robot_run
