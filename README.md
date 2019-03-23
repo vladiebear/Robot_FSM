@@ -21,5 +21,8 @@ Milestones:
 6.  Add random wander and autonomous trash collection (??)
 7.  Add time the random walk of the robot (??)
 
+To build the game, cd into the project folder -> docker run -v $PWD:/source -it klavins/elma:latest bash
+
 To build in docker environment -> make
+
 To run the game -> bin/robot_run
