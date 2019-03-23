@@ -1,16 +1,16 @@
 # Robot_FSM
 ECE590_FinalProject
 
-This final project will be an extension of the Elma Robot in a simulated environment. This will be an extension of the robot finite state machine simulated in a 2D environment. The robot will be able to navigate the 2D space for as long as the battery is charged.
-There will be an intruder in the 2D space and the robot will avoid the intruder. if the robot runs out of battery 
-the robot will go back to the charging station and recharge for a set amount of time. This will reset the state 
-machine and will be allowed to continue once the user presses a button. 
+This final project will be an extension of the Elma Robot in a simulated environment. This will be an extension of the robot finite state machine simulated in a 2D environment. The robot will be able to navigate the 2D space for trash.
+The user can add trash points and they will randomly appear in the grid with every push of the key 't' as instructed. 
+there is a timer that times your trash collecting skills, so dont hesitate! collect that trash as fast as you can.
+the states are defined as:
 
-The robot will be able to interact with different objects around the world. It will be able to wander on its own and
-explore while displaying information about the objects it tries to interact with, and the ability to interact with
-the object with user preference (i.e. move the object, destroy it etc).
+on -> clean <-> stop -> off -> on
 
-Success will be had if the robot can wander around and move objects around the space. 
+The robot will pick up the trash once it hovers over the trash. The user can move the robot with the arrow keys.
+
+Success will be had if the robot can collect all the trash! 
 
 Milestones:
 1.  Write tests (March 20)
@@ -18,5 +18,5 @@ Milestones:
 3.  Code the finite state machine and test with data streaming (March 22)
 4.  Port data to 2D environment (March 23)
 5.  Final tests and documentation (March 23)
-6.  Add intruder to wander (??)
-7.  Add function for robot to stay away from intruder (??)
+6.  Add random wander and autonomous trash collection (??)
+7.  Add time the random walk of the robot (??)
